@@ -1,0 +1,168 @@
+@charset "utf-8";
+body {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+.cFix:after{
+  display: block;
+  content: "";
+  height: 0;
+  clear: both;
+  font-size: 0;
+  visibility: hidden;
+}
+#wrapper {
+  width: 100%;
+}
+.inr {
+  width: 880px;
+  margin: 0 auto;
+}
+/*Product CSS*/
+.product .inr {
+  width: 886px;
+}
+.product aside {
+  width: 220px;
+  float: left;
+  padding-top: 50px;
+}
+.product main {
+  width: 660px;
+  float: right;
+}
+h2,.ice ul li p {
+  color: #cb3362;
+}
+.product a {
+  color: #7a6666;
+}
+.product a:hover {
+  color: #c8c10d;
+}
+.product .content {
+  padding-top: 60px;
+}
+.product .pro-content ul li {
+  margin-bottom: 160px;
+}
+.ice ul li {
+  width: 210px;
+  float: left;
+  text-align: center;
+  margin-right: 5px;
+}
+.ice ul li:last-child {
+  margin-right: 0;
+}
+.ice ul li p {
+  font-size: 20px;
+}
+/* for header and footer */
+.menu {
+  background: #EEEBEC;
+}
+.menu .logo {
+  float: left;
+} 
+.menu .contact-menu {
+  float: right;
+}
+.contact-menu ul li {
+  float: left;
+  list-style-type: none;
+}
+.contact-menu ul li a {
+  text-decoration: none;
+  color: #7a6666;
+}
+.contact-menu ul li a span {
+  display: none;
+}
+.contact-menu ul li a:hover {
+  color: #c8c10d;
+}
+.contact-menu ul li a:hover span {
+  display: block;
+}
+.contact-menu ul li a.menu-active,
+.contact-menu ul li a.menu-active:hover {
+  color: #cb3362;
+}
+
+.footer {
+  background: #CB3362;
+  padding: 20px 0 100px 0;
+  text-align: center;
+}
+.footer ul{
+  width: 200px;
+  margin: 0 auto;  
+}
+.footer ul li {
+  float: left;
+  margin-right: 20px;
+}
+.footer p {
+  color: #fff;
+  font-size: 12px;
+}
+/* banner for home */
+.banner {
+  background: #F8F8F8;
+  position: relative;
+}
+.banner .brn-img {
+  width: 1126px;
+  margin: 0 auto;
+  display: block;
+}
+.banner a.brn-img02 {
+  width: 152px;
+  padding: 44px 0 54px 4px;
+  background: url(../images/circle.png);
+  position: absolute;
+  bottom: 106px;
+  right: 308px;
+  z-index: 9999;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 27px;
+  line-height: 1;
+  text-align: center;
+}
+/*----- start of about----- */
+
+.bnr-section {
+  background: #c8c10d;
+}
+
+.bnr-sec {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.bnr-sec h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  padding:0;
+}
+
+.ctn-image {
+  background: #ebebed;
+  margin: 0 auto;
+}
+
+.ctn-image img {
+  margin: 0 auto 0 200px;
+}
